@@ -1,0 +1,10 @@
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+p {
+    background-color: #2a2a2a;
+    border: 1px solid #222;
+    width: 350px;
+    text-align: left;
+}
