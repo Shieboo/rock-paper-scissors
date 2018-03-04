@@ -7,7 +7,7 @@ var playerScore = 0,
     computerScore = 0;
 
 function playRound(playerSelection, computerSelection) {
-    playerSelection = prompt().toLowerCase();
+    playerSelection = prompt('rock, paper or scissors?').toLowerCase();
     computerSelection = computerPlay();
     console.log('Computer played: ' + computerSelection);
 
